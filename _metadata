@@ -1,0 +1,10 @@
+{
+  "author" : "Replace with your identifier",
+  "description" : "A tutorial mod for those learning the basics of Starbound modding.",
+  "friendlyName" : "Tutorial mod",
+  "link" : "",
+  "name" : "tutorialmod",
+  "steamContentId" : "",
+  "tags" : "Dungeons",
+  "version" : "1.0"
+}
