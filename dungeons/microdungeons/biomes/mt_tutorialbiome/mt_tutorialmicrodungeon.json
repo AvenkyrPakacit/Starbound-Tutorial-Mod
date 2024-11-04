@@ -40,7 +40,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"C:\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }],
  "tilewidth":8,
  "type":"map",
