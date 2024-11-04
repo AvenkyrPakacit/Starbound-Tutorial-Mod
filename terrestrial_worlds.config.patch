@@ -1,0 +1,89 @@
+[
+    [
+        {
+            "op": "add",
+            "path": "/planetTypes/tb_tutorialbiome",
+            "value": {
+                "threatRange": [
+                    1,
+                    6
+                ],
+                "layers": {
+                    "space": {
+                        "primaryRegion": [
+                            "asteroids"
+                        ]
+                    },
+                    "atmosphere": {
+                        "primaryRegion": [
+                            "atmosphere"
+                        ]
+                    },
+                    "surface": {
+                        "primaryRegion": [
+                            "tb_tutorialbiome"
+                        ],
+                        "secondaryRegions": [],
+                        "dungeons": []
+                    },
+                    "subsurface": {
+                        "primaryRegion": [
+                            "barrenunderground"
+                        ]
+                    },
+                    "underground1": {
+                        "primaryRegion": [
+                            "moonunderground"
+                        ]
+                    },
+                    "underground2": {
+                        "primaryRegion": [
+                            "barrenunderground"
+                        ]
+                    },
+                    "underground3": {
+                        "primaryRegion": [
+                            "moonunderground"
+                        ]
+                    },
+                    "core": {
+                        "primaryRegion": [
+                            "core"
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "op": "add",
+            "path": "/regionTypes/tb_tutorialbiome",
+            "value": {
+                "caveLiquid": [
+                    "water"
+                ],
+                "blockSelector": [
+                    "remixedMildSurface"
+                ],
+                "fgCaveSelector": [
+                    "surfaceCaves"
+                ],
+                "bgCaveSelector": [
+                    "empty"
+                ],
+                "biome": [
+                    [
+                        0,
+                        [
+                            "tb_tutorialbiome"
+                        ]
+                    ]
+                ],
+                "subRegion": [
+                    "garden"
+                ]
+            }
+        }
+    ]
+]

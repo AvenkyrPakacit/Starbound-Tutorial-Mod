@@ -1,0 +1,21 @@
+[
+  {
+    "op" : "add",
+    "path" : "/visitableTypeDescription/tb_tutorialbiome",
+    "value" : [
+      "^#FADADD;Tutorial Planet^white;.",
+      "^#E75480;Tutorial Planet^white;.",
+      "^#FADADD;Tutorial^white; ^#E75480;Planet^white;."
+      ]
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeNames/tb_tutorialbiome",
+    "value" : "Tutorial Planet"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeColors/tb_tutorialbiome",
+    "value" : [250, 218, 221]
+  }
+]

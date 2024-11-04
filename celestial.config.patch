@@ -1,0 +1,25 @@
+[
+  [
+    {"op":"add","path":"/terrestrialHorizonGraphics/tb_tutorialbiome","value":
+      {
+        "baseImages":"/celestial/system/terrestrial/horizon/textures/tb_tutorialbiome_<selector>.png",
+        "maskTextures":"/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "maskRange":[1,25],
+        "maskPerPlanetRange":[3,3]
+      }
+    },
+    {"op":"add","path":"/terrestrialGraphics/tb_tutorialbiome","value":
+      {
+        "baseImages":"/celestial/system/terrestrial/biomes/tb_tutorialbiome/maskie<num>.png",
+        "dynamicsImages":"/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+        "dynamicsRange":[1,30]
+      }
+    },
+    {"op":"add","path":"/planetaryTypes/Tier1/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
+    {"op":"add","path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
+    {"op":"add","path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
+    {"op":"add","path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
+    {"op":"add","path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
+    {"op":"add","path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"}
+  ]
+]
