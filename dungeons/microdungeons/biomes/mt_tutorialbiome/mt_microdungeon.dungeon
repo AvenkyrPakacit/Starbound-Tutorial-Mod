@@ -1,0 +1,24 @@
+{
+	"metadata" : {
+		"name" : "mt_microdungeon",
+		"species" : "generic",
+		"rules" : [
+		],
+		"anchor" : [ "mt_microdungeon" ],
+		"gravity" : 80,
+		"maxRadius" : 1000000,
+		"maxParts" : 10,
+		"extendSurfaceFreeSpace" : 100,
+		"protected" : true
+	},
+	"parts" : [
+		{
+			"name" : "mt_microdungeon",
+			"rules" : [
+				[ "ignorePartMaximumRule" ]
+			],
+			"def" : [ "tmx", [ "mt_microdungeon.json" ] ],
+			"chance" : 0
+		}
+	]
+}

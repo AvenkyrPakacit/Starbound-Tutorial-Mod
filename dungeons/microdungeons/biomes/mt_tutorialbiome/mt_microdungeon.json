@@ -1,0 +1,57 @@
+{ "backgroundcolor":"#ffffff",
+ "compressionlevel":-1,
+ "height":60,
+ "infinite":false,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztz0EOgCAQBEH\/\/1ReYTiYeBJJBHehKpn79HEAAAAAQL9yW2atjtJYFk\/\/W43Zent6svd+2Rq9eURr1N5RrXr\/N7I1YrNevXr16tUbgd51e2e0Rmqe2RuhebfeaqfWaqfWyy6db63aBQAAABGdno35ig==",
+         "encoding":"base64",
+         "height":60,
+         "id":1,
+         "name":"back",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":60,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zlib",
+         "data":"eJzt0DEOgCAQRFHi\/W9pxymMiQUhGncFdhT\/JL+xEB4pMcYYY4wxxhhjjLFRWy+aYflo35VT4fbeIZ98K7cU5SKreZTbc\/5a3X0xlpPe7HXW1hav19zq7mGN9j5xPz3j7L4qr\/UdVNYoc6vza94ejbTi1Ye3r\/dtZrz\/9HrNM3it5rt\/qI1Wa6\/UzmjvW8x48c7kjTSrnVFetS\/yDdSOEX713YiIiIiIiIhmawNPDYvE",
+         "encoding":"base64",
+         "height":60,
+         "id":2,
+         "name":"front",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":60,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":3,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.11.0",
+ "tileheight":8,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/liquids.json"
+        }, 
+        {
+         "firstgid":29,
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/materials.json"
+        }, 
+        {
+         "firstgid":226,
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
+        }],
+ "tilewidth":8,
+ "type":"map",
+ "version":1.1,
+ "width":60
+}
