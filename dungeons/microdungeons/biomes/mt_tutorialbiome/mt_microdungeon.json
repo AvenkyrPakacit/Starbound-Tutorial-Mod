@@ -1,4 +1,4 @@
-{ "backgroundcolor":"#ffffff",
+{ "backgroundcolor":"#000000",
  "compressionlevel":-1,
  "height":60,
  "infinite":false,
@@ -40,15 +40,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":29,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":226,
-         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/GOG Games\/Starbound\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Starbound\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }],
  "tilewidth":8,
  "type":"map",
