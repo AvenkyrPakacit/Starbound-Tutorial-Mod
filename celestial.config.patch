@@ -1,5 +1,104 @@
 [
   [
+    {
+			"op": "add",
+			"path": "/systemTypeBins/-",
+			"value": [
+			  0.1,
+			  "stm_star_tutorial"
+			]
+	},
+	{
+		"op":"add",
+			"path":"/systemTypes/stm_star_tutorial",
+			"value":
+			{
+				  "selectionWeight" : 1.0,
+				  "baseParameters" : {
+					"typeName" : "stm_star_tutorial",
+					"image" : "/celestial/system/stm_star_tutorial.png",
+					"twinkleTime" : [1.0, 1.5],
+					"spaceThreatLevel" : 1
+				  },
+				  "variationParameters" : [
+					{
+					  "magnitude" : 5,
+					  "description" : "Small Tutorial Star",
+					  "imageScale" : 0.04,
+					  "twinkleFrames" : "/celestial/stars/stm_star_tutorial_5px.png",
+					  "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+					  "brightness" : [1, 1]
+					},
+					{
+					  "magnitude" : 7,
+					  "description" : "Medium Tutorial Star",
+					  "imageScale" : 0.055,
+					  "twinkleFrames" : "/celestial/stars/stm_star_tutorial_7px.png",
+					  "twinkleBackground" : "/celestial/stars/backgrounds/star13px.png",
+					  "brightness" : [1, 1]
+					},
+					{
+					  "magnitude" : 11,
+					  "description" : "Large Tutorial Star",
+					  "imageScale" : 0.075,
+					  "twinkleFrames" : "/celestial/stars/stm_star_tutorial_11px.png",
+					  "twinkleBackground" : "/celestial/stars/backgrounds/star17px.png",
+					  "brightness" : [1, 1]
+					}
+				  ],
+				  "orbitRegions" : [
+					{
+					  "regionName" : "Tier1Inner",
+					  "orbitRange" : [2, 5],
+					  "bodyProbability" : 0.5,
+					  "planetaryTypes" : [
+						{"weight" : 0.90, "item" : "tb_tutorialbiome"},
+						{"weight" : 0.05, "item" : "Barren"},
+						{"weight" : 0.05, "item" : "AsteroidField"}
+					  ],
+					  "satelliteTypes" : [
+						{"weight" : 1, "item" : "Moon"}
+					  ]
+					},
+					{
+					  "regionName" : "Tier1Mid",
+					  "orbitRange" : [6, 7],
+					  "bodyProbability" : 0.25,
+					  "planetaryTypes" : [
+						{"weight" : 0.95, "item" : "GasGiant"},
+						{"weight" : 0.05, "item" : "AsteroidField"}
+					  ],
+					  "satelliteTypes" : [
+						{"weight" : 0.1, "item" : "Moon"},
+						{"weight" : 0.9, "item" : "tb_tutorialbiome"}
+					  ]
+					},
+					{
+					  "regionName" : "Tier1Outer",
+					  "orbitRange" : [8, 10],
+					  "bodyProbability" : 0.5,
+					  "planetaryTypes" : [
+						{"weight" : 0.9, "item" : "tb_tutorialbiome"},
+						{"weight" : 0.05, "item" : "Barren"},
+						{"weight" : 0.05, "item" : "AsteroidField"}
+					  ],
+					  "satelliteTypes" : [
+						{"weight" : 1, "item" : "Moon"}
+					  ]
+					},
+					{
+					  "regionName" : "Gate",
+					  "orbitRange" : [11, 11],
+					  "bodyProbability" : 1.0,
+					  "planetaryTypes" : [
+						{"weight" : 0.2, "item" : "AncientGateway"},
+						{"weight" : 0.1, "item" : "AsteroidField"}
+					  ],
+					  "satelliteTypes" : []
+					}
+				  ]
+			}
+	},
     {"op":"add","path":"/terrestrialHorizonGraphics/tb_tutorialbiome","value":
       {
         "baseImages":"/celestial/system/terrestrial/horizon/textures/tb_tutorialbiome_<selector>.png",
@@ -15,6 +114,33 @@
         "dynamicsRange":[1,30]
       }
     },
+	{
+			"op":"add",
+			"path":"/planetaryTypes/tb_tutorialbiome",
+			"value":
+			{
+				  "satelliteProbability" : 0.4,
+				  "maxSatelliteCount" : 3,
+				  "baseParameters" : {
+					"worldType" : "Terrestrial",
+					"description" : "Tutorial Planet",
+					"smallImage" : "/celestial/system/planet_small.png",
+					"terrestrialType" : [ "tb_tutorialbiome" ]
+				  },
+				  "variationParameters" : [
+					{
+					  "imageScale" : 0.1,
+					  "smallImageScale" : 0.5,
+					  "worldSize" : "medium"
+					},
+					{
+					  "imageScale" : 0.125,
+					  "smallImageScale" : 0.6,
+					  "worldSize" : "large"
+					}
+				  ]
+			}
+	},
     {"op":"add","path":"/planetaryTypes/Tier1/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
     {"op":"add","path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},
     {"op":"add","path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-","value":"tb_tutorialbiome"},

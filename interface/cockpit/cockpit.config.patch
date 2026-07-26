@@ -17,5 +17,7 @@
     "op" : "add",
     "path" : "/planetTypeColors/tb_tutorialbiome",
     "value" : [250, 218, 221]
-  }
+  },
+  {"op": "add","path": "/starTypeColors/stm_star_tutorial","value": [255,100,127]},
+  {"op": "add","path": "/starTypeNames/stm_star_tutorial","value": "Tutorial Star"}
 ]
